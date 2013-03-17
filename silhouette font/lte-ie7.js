@@ -1,4 +1,4 @@
-/* Use this script if you need to support IE 7 and IE 6. */
+/* Load this script using conditional IE comments if you need to support IE 7 and IE 6. */
 
 window.onload = function() {
 	function addIcon(el, entity) {
@@ -6,11 +6,14 @@ window.onload = function() {
 		el.innerHTML = '<span style="font-family: \'silhouette\'">' + entity + '</span>' + html;
 	}
 	var icons = {
-			'icon-peter' : '&#xe002;',
-			'icon-jane' : '&#xe000;',
-			'icon-jasmine-silhouette' : '&#xe003;',
-			'icon-josh' : '&#xe001;',
-			'icon-Kurt' : '&#xe004;'
+			'icon-aascot' : '&#x61;',
+			'icon-kate' : '&#x74;',
+			'icon-Kurt' : '&#x6b;',
+			'icon-jane' : '&#x6a;',
+			'icon-peter' : '&#x70;',
+			'icon-josh' : '&#x6f;',
+			'icon-jasmine-silhouette' : '&#x73;',
+			'icon-christopher' : '&#x78;'
 		},
 		els = document.getElementsByTagName('*'),
 		i, attr, html, c, el;
